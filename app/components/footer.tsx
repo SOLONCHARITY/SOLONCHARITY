@@ -57,7 +57,7 @@ export function Footer() {
                 <li>
                   <Link
                     href="https://blockchair.com/bitcoin/address/bc1q5jzqdtcfq2wxdszpakwfgz9jc69h3vpq2m7vth"
-                    className="text-sm opacity-80 hover:opacity-100"
+                    className="text-sm opacity-80 hover:opacity-100 underline"
                   >
                     Wallet Transparency: View on Blockchair
                   </Link>
