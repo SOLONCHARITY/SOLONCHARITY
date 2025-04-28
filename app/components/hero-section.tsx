@@ -13,21 +13,18 @@ export function HeroSection() {
         <div className="grid md:grid-cols-2 gap-8 items-center mb-8">
           <div className="text-center md:text-left md:pr-8">
             <h1 className="text-3xl md:text-5xl font-bold tracking-tight mb-4">
-              <span className="block text-[#0A4B3C]">Our Bitcoin</span>
-              <span className="block">Redefining Philanthropy</span>
+              <span className="block">Philanthropy powered</span>
+              by <span className="inline-block text-[#0A4B3C]">Bitcoin</span>
             </h1>
             <p className="text-gray-600 mb-6 text-sm md:text-base leading-relaxed">
-              SOLON is pioneering a new era in nonprofit finance by strategically accumulating Bitcoin as a treasury
-              reserve asset to maximize long-term impact. Unlike traditional nonprofits that rely on fiat, SOLON
-              embraces Bitcoin's scarcity, resilience, and digital capital properties to sustain and grow its
-              mission-driven initiatives.
+              SOLON is the world’s first Bitcoin treasury nonprofit turning internet culture to drive social impact. At SOLON, we embrace Bitcoin's scarcity and exponential growth potential to create a legacy of change.
             </p>
             <div className="flex flex-col md:flex-row gap-4 justify-center md:justify-start">
               <CryptoWalletModal>
                 <Button className="w-full md:w-auto bg-[#0A4B3C] hover:bg-[#0A4B3C]/90 text-white">
                   <Bitcoin className="w-5 h-5 mr-2" />
-                  Donate Bitcoin
-                </Button>
+                    Donate Bitcoin
+                  </Button>
               </CryptoWalletModal>
               <AboutModal />
             </div>

@@ -6,34 +6,32 @@ export function TreasuryStrategySection() {
     <BackgroundColor>
       <section id="treasury-strategy" className="container py-16">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold mb-8 text-center">A Treasury Strategy Designed for Maximum Impact</h2>
+          <h2 className="text-3xl font-bold mb-8 text-center">A Treasury Built for Lasting Impact</h2>
           <p className="text-lg text-gray-600 mb-8">
-            As a Bitcoin Treasury Nonprofit, SOLON strategically manages its BTC holdings to ensure maximum yield and
-            sustainable growth. Our approach allows us to:
+            Our Bitcoin-first strategy is designed to amplify your generosity:
           </p>
           <div className="space-y-6">
             <div className="flex items-start gap-4">
               <CheckCircle2 className="h-6 w-6 text-[#0A4B3C] flex-shrink-0 mt-1" />
               <p className="text-gray-600">
-                Hold Bitcoin as a long-term reserve asset, ensuring sustainable funding for our initiatives.
+                <strong>Enduring Reserve:</strong> We hold Bitcoin as a long-term asset, securing sustainable funding for decades of impact.
               </p>
             </div>
             <div className="flex items-start gap-4">
               <CheckCircle2 className="h-6 w-6 text-[#0A4B3C] flex-shrink-0 mt-1" />
               <p className="text-gray-600">
-                Deploy BTC strategically to fund life-changing programs while preserving our treasury's strength.
+                <strong>Strategic Impact:</strong> We deploy Bitcoin returns to power transformative programs while preserving our treasury’s strength.
               </p>
             </div>
             <div className="flex items-start gap-4">
               <CheckCircle2 className="h-6 w-6 text-[#0A4B3C] flex-shrink-0 mt-1" />
               <p className="text-gray-600">
-                Ensure transparency by maintaining a publicly verifiable Bitcoin treasury.
+                <strong>Uncompromising Transparency:</strong> Our publicly verifiable Bitcoin treasury ensures every satoshi is accounted for.
               </p>
             </div>
           </div>
           <p className="text-lg text-gray-600 mt-8">
-            Our Bitcoin-first strategy is designed to amplify social impact, ensuring that every donation appreciates
-            over time rather than diminishing in value due to inflation.
+            With SOLON, your donation doesn’t just help today—it appreciates, creating a perpetual engine for social change. Be the catalyst for this revolution.
           </p>
         </div>
       </section>

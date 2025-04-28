@@ -5,27 +5,42 @@ export function JoinRevolutionSection() {
   return (
     <section className="container py-16">
       <div className="max-w-3xl mx-auto text-center">
-        <h2 className="text-3xl font-bold mb-6">Join the Bitcoin Philanthropy Revolution</h2>
+        <h2 className="text-3xl font-bold mb-6">Shape the Future with SOLON</h2>
         <p className="text-lg text-gray-600 mb-8">
-          SOLON is named after the Athenian lawmaker Solon, a visionary reformer of justice and fairness. And we are
-          building the first Bitcoin Treasury Nonprofit Organization. With your support, we can transform lives through
-          a new financial paradigm—one where Bitcoin serves as the backbone of sustainable social impact.
+          Named after Solon, the Athenian champion of justice, SOLON is redefining philanthropy through Bitcoin’s unmatched potential. Your support can build a world where sound money transforms lives.
         </p>
         <div className="space-y-6 mb-8">
-          <div className="flex items-center justify-center gap-4">
-            <Bitcoin className="h-6 w-6 text-[#0A4B3C]" />
-            <p className="text-gray-600">Be part of the SOLON movement. Donate Bitcoin today.</p>
-          </div>
-          <div className="flex items-center justify-center gap-4">
-            <Heart className="h-6 w-6 text-[#0A4B3C]" />
-            <p className="text-gray-600">Join our team as a volunteer, contact us at team@soloncharity.com.</p>
-          </div>
-          <div className="flex items-center justify-center gap-4">
-            <Mail className="h-6 w-6 text-[#0A4B3C]" />
-            <p className="text-gray-600">For partnerships and inquiries, contact us at team@soloncharity.com.</p>
-          </div>
+        <div className="flex items-center justify-center gap-4">
+          <Bitcoin className="h-6 w-6 text-[#0A4B3C]" />
+          <p className="text-gray-600">
+            <strong>Volunteer:</strong> Bring your passion to our mission. 
+            <a href="mailto:team@soloncharity.com" className="text-[#0A4B3C] underline ml-1">
+              team@soloncharity.com
+            </a>.
+          </p>
         </div>
-        <Button className="bg-[#0A4B3C] hover:bg-[#0A4B3C]/90">Get Involved Now</Button>
+
+        <div className="flex items-center justify-center gap-4">
+          <Heart className="h-6 w-6 text-[#0A4B3C]" />
+          <p className="text-gray-600">
+            <strong>Partner:</strong> Amplify our impact through collaboration. 
+            <a href="mailto:team@soloncharity.com" className="text-[#0A4B3C] underline ml-1">
+              team@soloncharity.com
+            </a>.
+          </p>
+        </div>
+
+        <div className="flex items-center justify-center gap-4">
+          <Mail className="h-6 w-6 text-[#0A4B3C]" />
+          <p className="text-gray-600">
+            <strong>Spread the Word:</strong> Join our community and champion the Bitcoin philanthropy revolution.
+          </p>
+        </div>
+
+        </div>
+        <p className="text-lg text-gray-600 my-8">
+          Every action counts. Take the first step today.
+        </p>
       </div>
     </section>
   )
