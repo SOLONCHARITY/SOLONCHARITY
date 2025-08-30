@@ -7,17 +7,14 @@ import { Button } from "@/components/ui/button"
 
 const images = [
   {
-    src: "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
-    alt: "Young African teenagers in a challenging environment",
+    src: "/bitcoin_slide1.png", // Image path from the public folder,
+    alt: "Bitcoin icon paired with nonprofit symbols",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Meeting%20Photo%20Port%20Harcourt.jpg-vIF2al1XlhmQUPvX4nC74QYmV5bsV2.jpeg",
-    alt: "Students in a classroom during school outreach program in Port Harcourt",
+    src: "/bitcoin_slide2.png",
+    alt: "Bitcoin icon paired with nonprofit symbols",
   },
-  {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Children%20on%20Bench.jpg-gRKnCVhLxiq30UOh9TPIcpThhNReoc.jpeg",
-    alt: "Engaged students participating in class with raised hands",
-  },
+ 
 ]
 
 export function ImageCarousel() {

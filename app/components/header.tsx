@@ -1,44 +1,60 @@
-"use client"
-
 import Link from "next/link"
 import { SolonLogo } from "./solon-logo"
-import { AnimatedDonateButton } from "./animated-donate-button"
-import { Button } from "@/components/ui/button"
-import { Menu } from "lucide-react"
+import { MobileSidebar } from "./mobile-sidebar"
 
 export function Header() {
   return (
     <header className="border-b sticky top-0 bg-white z-50">
-      <div className="container flex h-16 items-center justify-between">
+      <div className="container flex h-16 items-center justify-between px-4"> {/* Added padding for spacing */}
         <Link href="/" className="flex items-center space-x-2">
           <SolonLogo />
         </Link>
-        <nav className="hidden md:flex items-center gap-6">
-          <Link href="/" className="text-sm font-medium text-[#0A4B3C] hover:text-[#0A4B3C]/80 transition-colors">
+        <nav className="hidden md:flex items-center gap-3 flex-wrap"> {/* Adjusted gap size and wrap */}
+          <Link
+            href="/"
+            className="text-xs sm:text-xs md:text-xs lg:text-sm font-medium text-[#0A4B3C] hover:text-[#0A4B3C]/80 transition-colors"
+          >
             Home
           </Link>
+          
+          <Link
+            href="/#what-we-do"
+            className="text-xs sm:text-xs md:text-xs lg:text-sm font-medium text-[#0A4B3C] hover:text-[#0A4B3C]/80 transition-colors"
+          >
+            What We Do
+          </Link>
+          
+          <Link
+            href="/#our-mission"
+            className="text-xs sm:text-xs md:text-xs lg:text-sm font-medium text-[#0A4B3C] hover:text-[#0A4B3C]/80 transition-colors"
+          >
+            Our Mission
+          </Link>
+          
           <Link
             href="/#why-bitcoin"
-            className="text-sm font-medium text-[#0A4B3C] hover:text-[#0A4B3C]/80 transition-colors"
+            className="text-xs sm:text-xs md:text-xs lg:text-sm font-medium text-[#0A4B3C] hover:text-[#0A4B3C]/80 transition-colors"
           >
             Why Bitcoin
           </Link>
+          
           <Link
-            href="/#treasury-strategy"
-            className="text-sm font-medium text-[#0A4B3C] hover:text-[#0A4B3C]/80 transition-colors"
+            href="/#why-work-with-us"
+            className="text-xs sm:text-xs md:text-xs lg:text-sm font-medium text-[#0A4B3C] hover:text-[#0A4B3C]/80 transition-colors"
           >
-            Treasury Strategy
+            Why Work With Us
           </Link>
-          <Link href="/faq" className="text-sm font-medium text-[#0A4B3C] hover:text-[#0A4B3C]/80 transition-colors">
-            FAQ
+          
+          <Link
+            href="/#take-the-next-step"
+            className="text-xs sm:text-xs md:text-xs lg:text-sm font-medium text-[#0A4B3C] hover:text-[#0A4B3C]/80 transition-colors"
+          >
+            Take the Next Step
           </Link>
-          <AnimatedDonateButton />
         </nav>
-        <Button variant="ghost" size="icon" className="md:hidden">
-          <Menu className="h-6 w-6" />
-        </Button>
+        
+        <MobileSidebar />
       </div>
     </header>
   )
 }
-
